@@ -1,31 +1,8 @@
 body {
     padding: 10px;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Red Hat Display", Lato, sans-serif;
 }
-
-.main-header {
-    background: solid;
-    background-color: linear-gradient(rgb(0, 0, 0), rgb(0, 64, 182));
-    border-color: solid, 1px, black;
-}     
-
-nav {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-button {
-    border-radius: 5%;
-}
-
-
 
 * {
     box-sizing: border-box;
@@ -35,7 +12,7 @@ button {
 .column {
         float: left;
         width: 25%;
-        padding: 50px 50px;
+        padding: 50px 25px;
     }
     
 /* Remove extra left and right margins, due to padding in columns */
@@ -50,16 +27,14 @@ button {
     
 /* Style the counter cards */
     .card {
-        box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.3); /* this adds the "card" effect */
+        box-shadow: 5px 4px 6px 0 rgba(0, 0, 0, 0.3); /* this adds the "card" effect */
         padding: 16px;
         text-align: center;
         background-color: #d1d1d1;
-        border: solid 1px rgb(150, 150, 150);
+        border: solid 1px rgb(185, 185, 185);
         border-radius: 8px;
     }
-    
-/* Responsive columns - one column layout (vertical) on small screens */
-    
+
 /* This is the end of the navigation */
 
 button {
@@ -98,7 +73,7 @@ aside img {
 }
 
 .main-text {
-    padding: 0% 5%;
+    
 
 }
 
@@ -128,7 +103,7 @@ section {
 footer {
     border-top: solid 1px grey;
     text-align: center;
-    width: 80%;
+    width: 58%;
     margin: auto;
 }
 /* This is the end of the footer */  
