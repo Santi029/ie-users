@@ -103,40 +103,6 @@ section {
 }
 /* This is the end of the main section */
 
-
-
-/* Background waves */
-
-.waves {
-    position: absolute;
-    width: 2196.5px;
-    height: 1039px;
-    left: -640.5px;
-    top: 38px;
-}
-
-
-/* Vector 2 */
-.wave2 {
-    position: absolute;
-    width: 2196.5px;
-    height: 1039px;
-    left: -640.5px;
-    top: 38px;
-    background: #DDEBFF;
-    mix-blend-mode: multiply;
-}
-
-/* Vector 1 */
-.wave1 {
-    position: absolute;
-    width: 1715px;
-    height: 941px;
-    left: -206px;
-    top: 133px;
-    background: #DBE5FF;
-}
-
 /* This is the footer */
 footer {
     border-top: solid 1px grey;
