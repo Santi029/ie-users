@@ -71,13 +71,13 @@ button {
 
 * {
     box-sizing: border-box;
-  }
+}
 
 /* Float four columns side by side */
 .column {
         float: left;
         width: 25%;
-        padding: 0 10px;
+        padding: 50px 50px;
     }
     
 /* Remove extra left and right margins, due to padding in columns */
@@ -101,7 +101,7 @@ button {
 /* Responsive columns - one column layout (vertical) on small screens */
     @media screen and (max-width: 600px) {
         .column {
-    width: 100%;
+    width: 60%;
     display: block;
     margin-bottom: 20px;
         }
@@ -109,18 +109,53 @@ button {
 /* This is the end of the navigation */
 
 /* This is the main section */
+.main-section {
+    width: 65%;
+}
+
 main {
-  margin: auto;
-  border: solid 1px red;
-  width: 80%;
+    margin: auto;
+    border: solid 1px red;
+    width: 100%;
+}
+
+main img {
+    margin: auto;
+    border: solid 1px rgb(0, 255, 221);
+}
+
+.main-text {
+    padding: 0% 5%;
+    border: solid 1px rgb(0, 119, 255);
+}
+
+main h1 {
+    color: red;
+}
+
+.text-img {
+    display: inline-flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    margin: auto;
+    border: solid 5px grey;
+    padding: 5px;
+}
+
+section {
+    border: solid 1px rgb(42, 235, 155);
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: auto;
 }
 /* This is the end of the main section */
 
 
 /* This is the footer */
 footer {
-  margin-top: 5%;
-  border-top: solid 1px grey;
-  text-align: center;
+    margin-top: 5%;
+    border-top: solid 1px grey;
+    text-align: center;
 }
 /* This is the end of the footer */  
