@@ -12,8 +12,7 @@
     }
 }
 
-@media (max-width: 768px)
-{
+@media(max-width: 768px) {
     .main-section {
         width: 90%;
     }
