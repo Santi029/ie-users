@@ -99,14 +99,15 @@ button {
     }
     
 /* Responsive columns - one column layout (vertical) on small screens */
-    @media screen and (max-width: 600px) {
-        .column {
-    width: 60%;
-    display: block;
-    margin-bottom: 20px;
-        }
-    }
+    
 /* This is the end of the navigation */
+
+/* This is the aside section */
+aside {
+    width: 50%;
+}
+
+/* This is the end of aside section */
 
 /* This is the main section */
 .main-section {
