@@ -1,29 +1,41 @@
 @media (max-width: 360px)
 {
-    //CSS here
+    .main-section {
+        width: 100%;
+    }
 }
 
 @media (max-width: 375px)
 {
-    //CSS here
+    .main-section {
+        width: 95%;
+    }
 }
 
 @media (max-width: 768px)
 {
-    //CSS here
+    .main-section {
+        width: 90%;
+    }
 }
 
 @media (max-width: 767px)
 {
-    //CSS here
+    .main-section {
+        width: 85%;
+    }
 }
 
 @media (max-width: 1366px)
 {
-    //CSS here
+    .main-section {
+        width: 75%;
+    }
 }
 
-@media (max-width: 1920px)
+media (max-width: 1920px)
 {
-    //CSS here
+    .main-section {
+        width: 65%;
+    }
 }
