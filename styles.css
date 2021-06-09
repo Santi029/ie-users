@@ -1,7 +1,8 @@
 body {
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Red Hat Display", Lato, sans-serif;
+    background-image: url();
 }
 
 * {
@@ -30,9 +31,9 @@ body {
         box-shadow: 5px 4px 6px 0 rgba(0, 0, 0, 0.3); /* this adds the "card" effect */
         padding: 16px;
         text-align: center;
-        background-color: #d1d1d1;
-        border: solid 1px rgb(185, 185, 185);
-        border-radius: 8px;
+        background-color: #cbcbcb;
+        border: solid 1px #afafaf;
+        border-radius: 10px;
     }
 
 /* This is the end of the navigation */
@@ -72,14 +73,18 @@ aside img {
     margin: auto;
 }
 
-.main-text {
-    
+main h1 {
+    color: red;
+    font-size: 2.3em;
+}
 
+main h3 {
+    font-size: 1.9em;
 }
 
 main h1 {
     color: red;
-    font-weight: 900;
+    font-size: 2.3em;
 }
 
 .text-img {
@@ -98,6 +103,38 @@ section {
 }
 /* This is the end of the main section */
 
+.wave {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    width: 100%;
+    background: dodgerblue;
+    z-index: -1;
+}
+.wave::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 90%;
+    width: 51%;
+    height: 75px;
+    background-color: white;
+    right: 0px;
+    top: 35px;
+}
+.wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 90%;
+    width: 51%;
+    height: 75px;
+    background-color: dodgerblue;
+    left: -8px;
+    top: 25px;
+}
 
 /* This is the footer */
 footer {
