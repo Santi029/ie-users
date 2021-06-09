@@ -119,6 +119,8 @@ main {
 
 /* This is the footer */
 footer {
-
+  margin-top: 5%;
+  border-top: solid 1px grey;
+  text-align: center;
 }
-/* This is the end of the footer */
+/* This is the end of the footer */  
