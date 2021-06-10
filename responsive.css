@@ -1,14 +1,14 @@
-@media (max-width: 360px)
+@media (max-width: 1366px)
 {
     body {
-        background-color: red;
+        background-color: aquamarine;
     }
 }
 
-@media (max-width: 375px)
+@media (max-width: 1200px)
 {
     body {
-        background-color: plum;
+        background-color: skyblue;
     }
 }
 
@@ -19,23 +19,9 @@
     }
 }
 
-@media (max-width: 767px)
+@media (max-width: 480px)
 {
     body {
-        background-color: olive;
-    }
-}
-
-@media (max-width: 1366px)
-{
-    body {
-        background-color: skyblue;
-    }
-}
-
-@media (max-width: 1920px)
-{
-    body {
-        background-color: aquamarine;
+        background-color: plum;
     }
 }
