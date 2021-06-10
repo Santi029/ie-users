@@ -235,6 +235,7 @@
         /* border: solid 3px rgb(177, 150, 0); */
     }
     .main-text {
+        width: 100%;
         /* border: solid 3px rgb(77, 220, 20); */
     }
     main h1 {
