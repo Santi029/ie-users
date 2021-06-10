@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 360px)
 {
     .main-section {
@@ -38,3 +39,6 @@ media (max-width: 1920px)
         width: 65%;
     }
 }
+=======
+alert("Hello World");
+>>>>>>> 91cdf5c8152454588c2e8699c0d717511a9500e3
