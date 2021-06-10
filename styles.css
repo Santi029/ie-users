@@ -62,7 +62,7 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 50px;
-    border: solid 3px rgb(255, 43, 255)
+    background-color: #1254FF;
 }
 
 /* This is the aside section */
@@ -82,7 +82,8 @@ aside {
 }
 
 .main-text {
-    padding-left: 10px;
+    padding-left: 10px; */
+    border: solid 3px rgb(77, 220, 20);
 }
 
 aside img {
@@ -97,10 +98,6 @@ main h1 {
     color: red;
     font-size: 2.4em;
 
-}
-
-.main-text {
-    border: solid 3px rgb(77, 220, 20);
 }
 
 .text-img {
