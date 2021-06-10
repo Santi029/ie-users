@@ -21,8 +21,7 @@ a {
         float: left;
         width: 25%;
         padding: 50px 25px;
-        border: solid 1px peru;
-        background-color: rgba(118, 172, 235, 0.5);
+        border: solid 3px crimson;
     }
     
 /* Remove extra left and right margins, due to padding in columns */
@@ -63,13 +62,13 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 50px;
-    background-color: rgb(0, 80, 228);
+    border: solid 3px rgb(255, 43, 255)
 }
 
 /* This is the aside section */
 aside {
     width: 50%;
-    background-color: rgba(40, 204, 226, 0.5);
+    border: solid 3px rgb(177, 150, 0);
 }
 
 /* This is the end of aside section */
@@ -79,7 +78,7 @@ aside {
     margin: auto;
     width: 80%;
     padding: 50px;
-    background-color: rgb(189, 199, 131, .5);
+    border: solid 3px rgb(20, 220, 220);
 }
 
 .main-text {
@@ -101,7 +100,7 @@ main h1 {
 }
 
 .main-text {
-    background-color: rgba(196, 1, 255, 0.5);
+    border: solid 3px rgb(77, 220, 20);
 }
 
 .text-img {
