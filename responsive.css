@@ -1,5 +1,4 @@
-@media (max-width: 1366px)
-{
+@media (max-width: 1366px) {
     body {
         background-color: aquamarine;
         width: max-content;
@@ -18,8 +17,7 @@
 }
 
 
-@media (max-width: 1200px)
-{
+@media (max-width: 1200px) {
     body {
         background-color: skyblue;
         width: max-content;
