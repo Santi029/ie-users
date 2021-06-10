@@ -46,9 +46,10 @@ a {
         background-color: #cbcbcb;
         border: solid 1px #afafaf;
         border-radius: 10px;
-        max-width: 300px;
+        max-width: 250px;
         min-width: 200px;
         width: 300px;
+        margin: auto;
     }
 
 /* This is the end of the navigation */
@@ -69,6 +70,7 @@ button {
 aside {
     width: 50%;
     border: solid 3px rgb(177, 150, 0);
+    padding: 20px;
 }
 
 /* This is the end of aside section */
@@ -103,8 +105,8 @@ main h1 {
     margin: auto;
     background-color: grey;
     width: 100%;
-    margin: 10px;
 }
+
 
 .cards {
     border: solid 1px #1254FF;
