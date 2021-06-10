@@ -86,10 +86,6 @@ aside {
     border: solid 3px rgb(77, 220, 20);
 }
 
-aside img {
-    margin: auto;
-}
-
 main h3 {
     font-size: 1.8em;
 }
@@ -105,9 +101,14 @@ main h1 {
     flex-flow: row wrap;
     justify-content: space-evenly;
     margin: auto;
-    background-color: grey .5;
+    background-color: grey;
+    width: 100%;
 }
 
+.cards {
+    border: solid 1px #1254FF;
+    padding: 5px;
+}
 /* This is the end of the main section */
 
 /* This is the footer */
