@@ -19,18 +19,20 @@
 
 @media (max-width: 1200px) {
     body {
-        background-color: skyblue;
+        background-color: orange;
         width: max-content;
     }
     .column {
         float: left;
-        width: 80%;
-        padding: 50px 25px;
+        width: 50%;
+        padding: 25px 25px;
+        border: solid 3px crimson;
     }
     .card {
         max-width: 300px;
         min-width: 200px;
         width: 100%;
+        margin: auto;
     }
     .main-section {
         width: 100%;
@@ -47,6 +49,13 @@
         flex-flow: row wrap;
         flex-direction: column-reverse;
         width: 100%;
+        padding: 10px;
+    }
+    .main-text {
+        border: solid 3px rgb(163, 20, 220);
+        margin: auto;
+        padding: 10px;
+
     }
     main h3 {
         font-size: 2.8em;
@@ -63,11 +72,8 @@
         font-size: 2em;
         text-align: center;
     }
-    .text-img div{
-        width: 100%;
-    }
     .text-img img{
-        width: 50%;
+        width: 100%;
         height: auto;
     }
     footer {
@@ -75,6 +81,7 @@
         text-align: center;
         width: 75%;
         margin: auto;
+        padding: 10px;
     }
 }
 
