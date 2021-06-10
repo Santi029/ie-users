@@ -6,7 +6,7 @@
     .column {
         float: left;
         width: 70%;
-        padding: 50px 25px;
+        padding: 25px 25px;
         margin: auto;
     }
     .card {
@@ -36,7 +36,7 @@
     }
     .main-section {
         width: 100%;
-        padding: 10px;
+        padding: 5px;
         border: solid 3px rgb(20, 220, 220);
     }
     aside {
@@ -49,12 +49,12 @@
         flex-flow: row wrap;
         flex-direction: column-reverse;
         width: 100%;
-        padding: 10px;
+        padding: 5px;
     }
     .main-text {
         border: solid 3px rgb(163, 20, 220);
         margin: auto;
-        padding: 10px;
+        padding: 5px;
 
     }
     main h3 {
@@ -81,7 +81,7 @@
         text-align: center;
         width: 75%;
         margin: auto;
-        padding: 10px;
+        padding: 5px;
     }
 }
 
@@ -105,7 +105,7 @@
     }
     .main-section {
         width: 100%;
-        padding: 10px;
+        padding: 5px;
         border: solid 3px rgb(20, 220, 220);
     }
     aside {
@@ -118,12 +118,12 @@
         flex-flow: row wrap;
         flex-direction: column-reverse;
         width: 100%;
-        padding: 10px;
+        padding: 5px;
     }
     .main-text {
         border: solid 3px rgb(163, 20, 220);
         margin: auto;
-        padding: 10px;
+        padding: 5px;
 
     }
     main h1 {
@@ -148,7 +148,7 @@
         text-align: center;
         width: 75%;
         margin: auto;
-        padding: 10px;
+        padding: 5px;
     }
 }
 
@@ -171,7 +171,7 @@
     }
     .main-section {
         width: 100%;
-        padding: 10px;
+        padding: 5px;
         border: solid 3px rgb(20, 220, 220);
     }
     .text-img {
@@ -182,7 +182,6 @@
         width: 100%;
     }
     .main-text {
-        padding-left: 10px;
         border: solid 3px rgb(77, 220, 20);
     }
     main h1 {
