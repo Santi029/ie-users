@@ -1,31 +1,41 @@
 @media (max-width: 360px)
 {
-    //CSS here
+    body {
+        background-color: red;
+    }
 }
 
 @media (max-width: 375px)
 {
-    //CSS here
+    body {
+        background-color: plum;
+    }
 }
 
 @media (max-width: 768px)
 {
-    //CSS here
+    body {
+        background-color: orange;
+    }
 }
 
 @media (max-width: 767px)
 {
-    //CSS here
+    body {
+        background-color: olive;
+    }
 }
 
 @media (max-width: 1366px)
 {
-    //CSS here
+    body {
+        background-color: skyblue;
+    }
 }
 
 @media (max-width: 1920px)
 {
     body {
-        
+        background-color: aquamarine;
     }
 }
