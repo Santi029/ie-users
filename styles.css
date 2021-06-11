@@ -22,9 +22,8 @@ button a {
 /* This is the main section */
 .main-section {
     margin: auto;
-    width: 70%;
+    width: 80%;
     padding: 5px;
-    /* border: solid 3px rgb(20, 220, 220); */
 }
 
 .text-img {
@@ -32,21 +31,18 @@ button a {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: auto;
-    /* background-color: grey; */
     width: 100%;
 }
 
 .main-text {
     padding-left: 5px;
     margin-left: 75px;
-    /* border: solid 3px rgb(77, 220, 20); */
     align-self: center;
 }
 
 /* This is the aside (character browser) section */
 aside {
     width: 45%;
-    /* border: solid 3px rgb(177, 150, 0); */
     padding: 20px;
 }
 
@@ -73,7 +69,6 @@ main p {
     float: left;
     width: 25%;
     padding: 25px 25px;
-    /* border: solid 3px crimson; */
 }
 
 /* Remove extra left and right margins, due to padding in columns */
@@ -104,7 +99,6 @@ main p {
 }
 
 .cards {
-    /* border: solid 1px #1254FF; */
     padding: 5px;
     width: 80%;
     margin: auto;
