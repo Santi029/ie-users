@@ -7,7 +7,7 @@
         
         width: 25%;
         padding: 25px 25px;
-        /* border: solid 3px crimson; */
+        border: solid 3px crimson;
     }
     .card {
         max-width: 300px;
@@ -18,21 +18,21 @@
     .main-section {
         width: 100%;
         padding: 5px;
-        /* border: solid 3px rgb(20, 220, 220); */
+        border: solid 3px rgb(20, 220, 220);
     }
     aside {
         width: 100%;
-        /* border: solid 3px rgb(177, 150, 0); */
+        border: solid 3px rgb(177, 150, 0);
     }
     .text-img {
-        /* border: solid 3px rgb(46, 134, 97); */
+        border: solid 3px rgb(46, 134, 97);
         display: inline-flex;
         flex-flow: nowrap;
         width: 100%;
         padding: 5px;
     }
     .main-text {
-        /* border: solid 3px rgb(163, 20, 220); */
+        border: solid 3px rgb(163, 20, 220);
         margin: auto;
         padding: 5px;
 
