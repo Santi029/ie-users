@@ -1,6 +1,6 @@
 @media (max-width: 1366px) {
     body {
-        /* background-color: orange; */
+        background-color: orange;
         width: max-content;
     }
     .column {
